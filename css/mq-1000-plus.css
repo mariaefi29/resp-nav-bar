@@ -1,0 +1,14 @@
+#sidebar {
+  width: 80%;
+  /*layout*/
+  display: grid;
+  grid-template-columns: 0.5fr repeat(2,1fr) 1.5fr repeat(2,2fr) 1fr;
+}
+
+.five {
+  grid-column: 5/5;
+}
+
+#bars {
+  display: none;
+}

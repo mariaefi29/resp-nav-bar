@@ -53,6 +53,21 @@ li:hover, .icon:hover {
   cursor: pointer;
 }
 
+label {
+  width: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bars {
+  width: 1.6rem;
+}
+
+svg {
+  fill: currentColor;
+}
+
 input[type="checkbox"] {
     /* toggle */
     display: none;
